@@ -1,0 +1,43 @@
+# ---------- Visual Studio ----------
+.vs/
+*.sln.docstates
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+ipch/
+Debug/
+Release/
+x64/
+Win32/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.recipe
+*.log
+*.lastbuildstate
+*.FileListAbsolute.txt
+
+# ---------- CMake ----------
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ---------- 运行时生成的数据文件 ----------
+# 程序保存时会在工作目录生成这两个文件，属于个人数据，不入库
+student.txt
+students.data
+
+# ---------- 本地原件备份 ----------
+_legacy/
+
+# ---------- 杂项 ----------
+*.swp
+.DS_Store
+Thumbs.db

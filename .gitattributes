@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Visual Studio 工程文件保持 Windows 换行
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+
+*.png binary
